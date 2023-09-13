@@ -15,6 +15,7 @@
   /*ALINEACION AL CENTRO*/
   justify-content: center;
   align-items: center;
+  
 
 
 }
@@ -22,6 +23,7 @@
   display: flex;
   width: 500px;
   justify-content: space-around;
+
 }
 .menuList li{
   list-style: none;
@@ -47,15 +49,15 @@
   padding: 30px;
   text-align: center;
   font-size: 2em;
-  .card-img{
-    width: 10%;
-  }
+}
+.card-img{
+  width: 20%;
 }
 /*inicio*/
 .card-img{
 width: 30%;
 width: 40%;
-width: 10%;
+width: 50%;;
 }
 /*locales*/
 .card img{
