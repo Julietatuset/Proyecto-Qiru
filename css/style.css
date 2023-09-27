@@ -33,8 +33,19 @@ font-family: 'Montserrat' , sans-serif;
 .pie{
   grid-area: pie;
 }
+.bg-color{
+  background-color: rgb(207, 248, 248);
+}
 
 /*MENU*/
+
+.cabeza{
+  color: black;
+  padding: 0;
+  margin: 0;
+  
+}
+
 .cabeza__span{
   font-size: 0.7rem;
   background-color: black;
@@ -80,31 +91,34 @@ P{
   flex-flow: wrap;
   justify-content: center;
   padding: 2rem 0 3rem;
+ 
 }
 .galeria__producto{
   display: flex;
   flex-direction: column;
-  margin: 1rem;
+  margin: 3rem;
 }
 .galeria__producto img{
-  width: 15rem;
+  width: 30rem;
+  float: right;
+  
 }
 .galeria__button{
-  background-color: blue;
-  color: black;
+  background-color: rgb(25, 25, 27);
+  color: rgb(223, 216, 216);
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .pie{
   background-color: black;
   color: aliceblue;
-  display: flex;
-  justify-content: space-around;
+  display: inline-flex ;
+  justify-content: flex-end;
   height: 5rem;
   align-items: center;
 }
 .pie img{
-  width: 14rem;
+  width: 10rem;
   justify-content: space-around;
 }
 /*MEDIA QUERIES*/
